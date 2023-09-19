@@ -8,10 +8,12 @@ comes with most of the boilerplate already set up to get you started on mobile a
 
 ## To Use
 1. Hit the green "Use this template" button at the top of the page
-2. Clone your new repo
-3. Open the project in Android Studio
-    - Or Goto File -> New -> Project from Version Control -> Git and paste the URL of your new repo
-4. Change the package name in the gradle.properties file
-5. Change the package name in your Project Structure
-6. Change the project name in the settings.gradle file
-7. Delete this README.md file and replace it with your own
+2. Either:
+   1. Clone your new repo
+   2. Open the project in Android Studio
+   - Or
+   1. Goto File -> New -> Project from Version Control -> Git and paste the URL of your new repo
+3. Change the package name in the gradle.properties file
+4. Change the package name in your Project Structure
+5. Change the project name in the settings.gradle file
+6. Delete this README.md file and replace it with your own
