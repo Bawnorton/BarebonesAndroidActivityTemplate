@@ -1,7 +1,7 @@
 # Barebones Android Activity Template
 Simplistic Android App Template for Android Studio
 
-Contains the bare minimum to get an app up and running with view binding and a single activity.
+Contains the bare minimum to get an app up and running on Java 17 with view binding and a single activity.
 
 ## To Use
 1. Hit the green "Use this template" button at the top of the page
