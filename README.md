@@ -10,4 +10,5 @@ Contains the bare minimum to get an app up and running with view binding and a s
     - Or Goto File -> New -> Project from Version Control -> Git and paste the URL of your new repo
 4. Change the package name in the gradle.properties file
 5. Change the package name in your Project Structure
-6. Delete this section of the README
+6. Change the project name in the settings.gradle file
+7. Delete this README.md file and replace it with your own
