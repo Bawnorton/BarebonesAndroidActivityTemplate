@@ -4,5 +4,8 @@ Simplistic Android App Template for Android Studio
 Contains the bare minimum to get an app up and running with view binding and a single activity.
 
 ## To Use
-1. Change the package name in the gradle.properties file
-2. Change the package name in your Project Structure
+1. Hit the green "Use this template" button at the top of the page
+2. Clone your new repo
+3. Open the project in Android Studio
+4. Change the package name in the gradle.properties file
+5. Change the package name in your Project Structure
