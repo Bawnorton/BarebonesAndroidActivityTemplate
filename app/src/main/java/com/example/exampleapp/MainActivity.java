@@ -1,11 +1,11 @@
-package com.example.exampleproject;
+package com.example.exampleapp;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.exampleproject.databinding.ActivityMainBinding;
+import com.example.exampleapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     /*

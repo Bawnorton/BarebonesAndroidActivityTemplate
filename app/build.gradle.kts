@@ -2,9 +2,8 @@ plugins {
     id("com.android.application")
 }
 
-// change this to your package name
-var packageName = "com.example.exampleproject"
-var javaVersion = JavaVersion.VERSION_17
+var packageName = properties["package_name"] as String
+var javaVersion = JavaVersion.toVersion(properties["java_version"] as Any)
 
 android {
     namespace = packageName
@@ -36,12 +35,12 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.8.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.navigation:navigation-fragment:2.5.3")
-    implementation("androidx.navigation:navigation-ui:2.5.3")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("androidx.appcompat:appcompat:${properties["app_compat_version"]}")
+    implementation("com.google.android.material:material:${properties["material_version"]}")
+    implementation("androidx.constraintlayout:constraintlayout:${properties["constraint_layout_version"]}")
+    implementation("androidx.navigation:navigation-fragment:${properties["navigation_version"]}")
+    implementation("androidx.navigation:navigation-ui:${properties["navigation_version"]}")
+    testImplementation("junit:junit:${properties["junit_version"]}")
+    androidTestImplementation("androidx.test.ext:junit:${properties["androidx_test_version"]}")
+    androidTestImplementation("androidx.test.espresso:espresso-core:${properties["espresso_version"]}")
 }

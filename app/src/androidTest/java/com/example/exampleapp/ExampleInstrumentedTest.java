@@ -1,4 +1,4 @@
-package com.example.exampleproject;
+package com.example.exampleapp;
 
 import android.content.Context;
 
