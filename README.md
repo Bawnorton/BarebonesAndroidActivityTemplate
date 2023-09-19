@@ -3,9 +3,6 @@ Simplistic Android App Template for Android Studio
 
 Contains the bare minimum to get an app up and running on Java 17 with view binding and a single activity.
 
-This is an alternative to the empty project template that Android Studio provides, however, this
-comes with most of the boilerplate already set up to get you started on mobile app development.
-
 ## To Use
 1. Hit the green "Use this template" button at the top of the page and create a new repo
 2. Either:
