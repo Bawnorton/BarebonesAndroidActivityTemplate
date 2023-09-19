@@ -7,7 +7,7 @@ This is an alternative to the empty project template that Android Studio provide
 comes with most of the boilerplate already set up to get you started on mobile app development.
 
 ## To Use
-1. Hit the green "Use this template" button at the top of the page
+1. Hit the green "Use this template" button at the top of the page and create a new repo
 2. Either:
    1. Clone your new repo
    2. Open the project in Android Studio
