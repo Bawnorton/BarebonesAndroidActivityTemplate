@@ -41,6 +41,6 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment:${properties["navigation_version"]}")
     implementation("androidx.navigation:navigation-ui:${properties["navigation_version"]}")
     testImplementation("junit:junit:${properties["junit_version"]}")
-    androidTestImplementation("androidx.test.ext:junit:${properties["androidx_test_version"]}")
-    androidTestImplementation("androidx.test.espresso:espresso-core:${properties["espresso_version"]}")
+    androidTestImplementation("androidx.test.ext:junit:1.1.3")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
